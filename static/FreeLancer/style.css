@@ -1,0 +1,231 @@
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 100;
+}
+
+.container {
+	margin: 0 auto;
+	max-width: 940px; 
+	padding: 0 10px;
+	 
+}
+
+
+/*----------------------------------------------------------------------------- 
+							Header 
+-----------------------------------------------------------------------------*/
+.header {
+ 	 height: 800px;
+ 	 text-align: center; 
+  	background: url(https://s3.amazonaws.com/codecademy-content/projects/innovation-cloud/bg.jpg) no-repeat center center fixed; 
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+
+}
+
+.header .container {
+	position: relative;
+	top: 200px;
+}
+
+.header h1 {
+	font-size: 80px;
+	line-height: 100px; 
+	margin-top: 0;
+	margin-bottom: 80px;
+	color: #ffffff;
+	padding-top: 150px;
+}
+
+@media (min-width:850px) {
+	.header h1 {
+		font-size: 120px;
+	}
+}
+
+.header p {
+	font-weight: 500;
+	letter-spacing: 8px;
+	margin-bottom: 40px;
+	margin-top: 0;
+	color: #ffffff;
+}
+
+.btn:hover {
+	background: #117bff;
+	cursor: pointer; 
+	transition: background .5s;  
+  	background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  	background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+	background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+	background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+	background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+	text-decoration: none;
+	
+}
+
+
+.btn {
+	  background: #3498db;
+	  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+	  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+	  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+	  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+	  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+	  -webkit-border-radius: 28;
+	  -moz-border-radius: 28;
+	  border-radius: 28px;
+	  font-family: Arial;
+	  color: #ffffff;
+	  font-size: 20px;
+	  padding: 10px 20px 10px 20px;
+	  text-decoration: none;
+}
+
+/*----------------------------------------------------------------------
+						 Nav
+-----------------------------------------------------------------------*/
+.nav{
+	background-color: black;
+	padding: 35px 20px 35px 20px;	
+}
+
+.nav ul {
+	list-style: none;
+	margin: 0 auto; 
+	padding: 30px 0;
+	text-align: center; 
+	display: inline;
+	
+}
+
+li{
+	display: inline;
+	color:white;
+	padding: 35px 20px 35px 20px;	
+}
+
+li:hover{
+	background: #117bff;
+	cursor: pointer;
+	padding: 35px 20px 35px 20px;
+}
+
+/*----------------------------------------------------------
+						 Main
+ ---------------------------------------------------------- */
+.main .container {
+	margin: 80px auto;
+}
+
+.leftimg{
+	float:left;
+	width: 40%;
+	height: 40%;
+	margin:0 20px 20px 0;
+}
+
+
+/*-----------------------------------------------------------
+					 Jumbotron 
+-------------------------------------------------------------*/
+
+.jumbotron {
+
+	height:600px;
+	background: url(http://images6.fanpop.com/image/photos/34600000/blue-neon-cityscape-blue-34674370-1920-1200.jpg) no-repeat center center fixed; 
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;	
+}
+
+#text{
+	float:right;
+	margin: 7% 5% 0 0;
+	height: 600px;
+	color: #ffffff;
+
+}
+
+.jumbotron .container {
+	position: relative;
+	top: 220px;
+}
+
+.btn2 {
+  -webkit-border-radius: 4;
+  -moz-border-radius: 4;
+  border-radius: 4px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 19px;
+  background: #000000;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn2:hover {
+  background: #117bff;
+  text-decoration: none;
+}
+
+
+/*--------------------------------------------------------------------
+ 							Footer 
+ ----------------------------------------------------------------------*/
+.footer { 
+	font-size: 14px;
+	background-color:#000;
+	margin:0 0 20px 0;
+	padding: 10px;
+
+}
+
+.footer p {
+	color: #ffffff;
+}
+
+/*------------------------------------------------------------------------
+ 						Media Queries 
+ -----------------------------------------------------------------------*/
+@media (max-width: 500px) {
+  .header h1 {
+    font-size: 50px;
+    line-height: 64px;
+  }
+
+  .main, .jumbotron {
+    padding: 0 30px;
+  }
+
+  .main img {
+    width: 100%;
+  }
+
+.nav{
+	padding: 15px 10px 25px 15px;	
+}
+
+
+li{
+	display: inline;
+	color:white;
+	padding: 15px 10px 25px 15px;	
+}
+
+li:hover{
+	background: #117bff;
+	cursor: pointer;
+	padding: 15px 10px 25px 15px;
+}
+
+
+
