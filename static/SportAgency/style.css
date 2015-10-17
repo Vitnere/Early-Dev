@@ -1,0 +1,277 @@
+html, body {
+  margin: 0;
+}
+
+h1, h2, a {
+  font-family: 'Oswald', sans-serif;
+}
+
+p {
+  font-family: Helvetica, Arial, sans-serif; 
+}
+
+.container {
+  width: 940px;
+  margin: 0 auto;
+  padding: 7% 0 3% 0;
+}
+
+section{
+  margin: 0;
+  padding: 0;
+}
+
+/*------------------ 
+          Main 
+--------------------*/
+.main {
+  height: 600px;
+  text-align: center;
+  background: url(http://i.imgur.com/9rpo15N.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover no-repeat center center fixed;
+  
+  
+}
+.main h1 {
+  color: #FFF;
+  margin: 0px;
+  font-size: 200px;
+}
+
+.main p {
+  font-size: 18px;
+  color: #FFF;
+}
+
+.btn {
+  -webkit-border-radius: 2;
+  -moz-border-radius: 2;
+  border-radius: 2px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 24px;
+  background: #000000;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #ff713e;
+  text-decoration: none;
+}
+h3{
+  color:#FFF;
+}
+
+/* ------------------
+      Supporting 
+---------------------*/
+
+.supporting {
+  background-color: #1c1c1c; 
+  height: 300px;
+  padding-top: 7%;
+}
+
+.supporting h1,
+.supporting h2 {
+  color: #ffa800;
+  font-size: 20px;
+  margin-bottom: 10px;
+  text-align: center;
+
+}
+
+.supporting p {
+  color: #efefef;
+  margin-bottom: 20px;
+  line-height: 20px;
+  font-size: 12px;
+ text-align: center;
+}
+
+.supporting .btn {
+  background-color: #eee;
+  color: #1c1c1c;
+  font-size: 18px;
+  padding: 8px 30px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.left-col {
+    float: left;
+    width: 30%;
+    padding: 0 1.5% 0 1.5%;
+}
+.center-col {
+    float: left;
+    width: 30%;
+    padding: 0 1.5% 0 1.5%;
+}
+.right-col {
+    float: left;
+    width: 30%;
+    padding: 0 1.5% 0 1.5%;
+}
+
+/* -----------------
+      Feature 
+--------------------*/
+.feature {
+  height: 600px;
+  background: url(http://i.imgur.com/0ugyhCp.jpg?1) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.feature h1,
+.feature h2 {
+  color: #fff;
+  font-size: 40px;
+  border-radius: 5px;
+  border-color: #000;
+  margin:10%;
+  padding:50px 0 0;
+
+/* -----------------
+      Premium 
+--------------------*/ 
+}
+
+.premium{
+  background-color: #000;
+  height: 300px;
+}
+.premium h2{
+  margin: 0;
+  padding-top: 5%;
+  color: #ffa800;
+  font-size: 40px;
+  text-align: center;
+ 
+}
+.premium p{
+  margin:10px 0 20px 0;
+  color: #ffffff;
+  text-align: center;
+}
+
+.btnp{
+  -webkit-border-radius: 2;
+  -moz-border-radius: 2;
+  border-radius: 2px;
+  font-family: Arial;
+  color: #000000;
+  font-size: 20px;
+  background: #ffffff;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  margin: 0 41% 0 41%;
+}  
+.btnp:hover{
+  background: #ffaa00;
+  text-decoration: none;
+   
+}
+/* ---------------------
+      Footer 
+---------------------*/
+.footer {
+  height: 600px;
+  background: url(http://i.imgur.com/Rdbz62e.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+}
+
+.footer h1,
+.footer h2 {
+  color: #fff;
+  font-size: 70px;
+  margin:0;
+  padding: 25% 0 3% 0;
+  text-align: center;
+}
+
+.footer p {
+  color: #fff;
+  margin: 0 0 20px 0;
+  font-size: 18px;
+}
+
+#foot{  /*button at footer*/
+  text-decoration: none;
+  margin: 0 40% 0 40%;
+}
+
+@media (min-width:500px) {
+  
+  .main{
+  background: url(http://i.imgur.com/9rpo15N.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover no-repeat center center fixed;
+  }
+  .feature{
+    background: url(http://i.imgur.com/0ugyhCp.jpg?1) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  }
+  .footer{
+    background: url(http://i.imgur.com/Rdbz62e.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  }
+  .main h1,
+   {
+   color: #FFF;
+  margin: 0px;
+  font-size: 150px;
+  }
+
+  .supporting h1,
+  .supporting h2{
+    margin: 0px;
+  font-size: 150px;
+  } 
+
+  .supporting .col {
+    width: 90%;
+  }
+
+  .supporting h2 {
+    font-size: 40px;
+  }
+
+  .supporting p
+  .premium p
+  .main p {
+    font-size: 18px;
+  }
+
+  .feature h2 {
+    font-size: 60px;
+  }
+}
