@@ -177,7 +177,13 @@ body a:active {
   .clearfix{
     height: 30px;
   }
-
+  /*Usluge*/
+  .thumb{
+    padding-left: 10px;
+  }
+  /*.eng{
+    margin-top: -20px !important;
+    }*/
 
 
 
