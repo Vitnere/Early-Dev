@@ -181,12 +181,14 @@ body a:active {
   .thumb{
     padding-left: 10px;
   }
-  /*.eng{
-    margin-top: -20px !important;
-    }*/
-
-
-
+  /*Projekti*/
+  .container-galery {
+  position: relative;
+  height: 660px;
+  width: 960px;
+  overflow: hidden;
+  margin: 0 auto;
+   }
 
 
 

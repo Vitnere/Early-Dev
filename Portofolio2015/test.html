@@ -14,12 +14,10 @@
         <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
         <link rel="stylesheet" href="css/style.css"> <!-- Resource style -->
+        <link rel="stylesheet" href="css/lightbox.css">
+        <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
         
-        <!--Javascript-->
-        <!-- Latest compiled and minified JavaScript bootstrap-->
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
-        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
-        <!-- Latest compiled and minified CSS -->
+
 
         <!-- Optional theme -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
@@ -28,19 +26,24 @@
         <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+      <script src="../../assets/js/html5shiv.js"></script>
+      <script src="../../assets/js/respond.min.js"></script>
+        <![endif]-->
 
 <!--****************************Header*********************************************-->
-<div class="jumbotron"><!--Lead stormtroper on page-->  
+<div class="jumbotron" style="background-color: #BAE0FF"><!--Lead stormtroper on page-->  
 <div class="container-fluid" id="wrap"><!--wrap page-->
     <div class="container landphoto">
         <header>
             <section> 
                 <div class="container">
                     <div class="row">
-                        <div class="col-xs-4">
+                        <div class="col-md-4">
                             <img src="http://i.imgur.com/K7zf9Ca.jpg?3" class="img-responsive" id="avatar">
                         </div>        
-                         <div class="col-xs-8" id="title">
+                         <div class="col-md-8" id="title">
                             <h2 class="text-center">@Freelancer,web developer,informaticar</h2>
                             <h3>>>Shell;Code;Discipline</h3> 
                          </div><!--div title-->
@@ -72,8 +75,8 @@
                             <li><a href="#skils">PROFIL</a></li>
                             <li><a href="#CV">BIOGRAFIJA</a></li>
                             <li><a href="#usluge">USLUGE</a></li>
-                            <li><a href="#">PROJEKTI</a></li>
-                            <li><a href="#">REFERENCE</a></li>
+                            <li><a href="#projekti">PROJEKTI</a></li>
+                            <li><a href="#reference">REFERENCE</a></li>
                             <li><a href="#">KONTAKT</a></li>
                             </li>
                         </ul>
@@ -88,30 +91,39 @@
     <section>
         <div class="container">
             <div class="row">
-                <div class="col-xs-2"></div>
-                    <div class="col-xs-8" id="introp">
+                <div class="col-md-2" ></div>
+                    <div class="col xs-12 col-md-8" id="introp">
                         <p>Zdravo moje ime je Nemanja i samouki sam web developer.Moj posao,glavni hobi i strast je internet u domenu web developmenta i racunarskih mreza.Takode pruzam usluge kucanja seminarskih radova,prevodenja i ostalog,ako ste zaintersovani za taj domen mozete saznati vise ako kliknite na ovaj <a href="#">link</a>.Ako imate poslovnu ponudu,startup ideju kojoj zelite da se prikljucim ili vam trebaju moje usluge slobodno me <a href="#">kontaktirajte</a>.Radujem se buducoj saradnji.</p>
                         <span id="skils"></span><!--nav triger for Profil page--> 
                     </div>
 
-                <div class="col-2"></div>
+                <div class="col-md-2"></div>
             </div>
         </div>
     </section><!--intro close-->
 </div><!--container landphoto close-->
 <!--Profil/////////////////////////////////////////////////////////////////////////-->
 
+
+
     <section>
-        <div class="container">
+        <div class="container-fluid">
             <div class="row">
-                <div class="col-xs-8"><h2>Vjestine:</h2></div>
-                    <div class="col-xs-4"><h2 class="text-center">Profil</h2></div>
+                <div class="col-md-12" id="wrapCV">
+                    <div class="col-md-4"></div>
+                    <div class="col-md-4"><h2 class="text-center">Profil</h2></div>
+                    <div class="col-md-4"></div>
+                </div><!--wrap close-->
             </div>
         </div>
-    </section><!--First line close-->
+    <div class="col-md-2"></div>   
+    <div class="col-md-8"><h3 class="text-center">Vjestine:</h2></div>
+    <div class="col-md-2"></div>
+    </section>
+    
 <!---Skils/////////////////////////////////////////////////////////////////////////-->
     <section>
-        <div class="col-xs-4" id="sk1">
+        <div class="col-md-4" id="sk1">
             <ul>
                 <li>HTML5</li>
                     <div class="progress">
@@ -151,7 +163,7 @@
                     </div><!--Progres bar animation-->
             </ul>
         </div>
-        <div class="col-xs-4" id="sk2">
+        <div class="col-md-4" id="sk2">
             <ul>
                 <li><abbr title="Napredan korisnik,7+ godina iskustva.Trenutno korisnik Debian 8.U proslosti koristene sledece distribucije:Ubuntu,Linux Mint,Open SUSE,Slax,DSL,Vector Linux">Linux</abbr></li>
                     <div class="progress">
@@ -195,7 +207,7 @@
 <!--**************************skils close*****************************************--> 
     <!--Info--> 
     <section>
-        <div class="col-xs-4" id="panel-info">
+        <div class="col-md-4" id="panel-info">
             <div class="panel panel-primary">
                 <div class="panel-heading">Info:</div>
                     <div class="panel-body">Ime:Nemanja Kolar<br>Godina:26<br>
@@ -209,7 +221,7 @@
     <section>
         <div class="container">
             <div class="row">
-                <div class="col-xs-12">
+                <div class="col-md-12">
                     <h4>Ostale vjestine:</h4>
                     <div class="btn-group" role="group" aria-label="...">
                         <button type="button" class="btn btn-info">Ciso IOS</button>
@@ -246,14 +258,14 @@
     <div class="container-fluid"><!--Fluid wraper-->
         <div class="row">
             <section><!--Biografija-->
-                <div class="col-xs-12" id="wrapCV">
-                    <div class="col-xs-4"></div>
-                    <div class="col-xs-4">
+                <div class="col-md-12" id="wrapCV">
+                    <div class="col-md-4"></div>
+                    <div class="col-md-4">
                         <h2>Biografija</h2><!--CV mladog Luka Skajvokera-->
                     </div>
-                    <div class="col-xs-4"></div>
+                    <div class="col-md-4"></div>
                 </div>
-                <div class="col-xs-6">
+                <div class="col-md-6">
                         <h2 class="text-center">Edukacija</h2>
 <!---////////////////////Timeline////////////////////////////////////////////////-->
     <section id="cd-timeline" class="cd-container">
@@ -334,7 +346,7 @@
     </section> <!-- cd-timeline -->
 <!--///////////////////////Timeline close///////////////////////////////////////////-->
                     </div>
-                    <div class="col-xs-6">
+                    <div class="col-md-6">
                         <h2 class="text-center">Radno iskustvo</h2>
 <!---////////////////////Timeline///////////////////////////////////////////////////-->
     <section id="cd-timeline" class="cd-container">
@@ -457,29 +469,59 @@
         </div><!--row close-->
     </div><!--wraper close-->
 <!--///////////////////Usluge//////////////////////////////////////////////////////-->
-   
-       <div class="row">
-                    <div class="col-xs-6">
+    <section>
+        <span id="usluge"></span> 
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-12" id="wrapCV">
+                        <div class="col-md-4"></div>
+                        <div class="col-md-4"><h2 class="text-center">Usluge</h2></div>
+                        <div class="col-md-4"></div>
+                    </div><!--wrap close-->
+                    <div class="col-md-12 clearfix"></div>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-6">
                         <div class="thumbnail">
-                            <img src="http://i.imgur.com/7SEYtLw.jpg" alt="...">
+                            <img src="http://i.imgur.com/lwMeZtM.jpg?1" alt="...">
                                 <div class="caption">
-                                <h3>Engleski jezik</h3>
-                                <p><ul>
-                                    <li>Prevodilacke usluge</li>
-                                    <li>Instrukcije</li>
-                                    <li>Privatni casovi</li>
-                                    Spoljni saradnik-diplomirani profesor engleskog jezika sa visegodisnjim iskustvom</p>
-                                
+                            <h3>Kucanje radova</h3>
+                            <p><ul>
+                                    <li>Izrada seminarskih,završnih,
+                                        diplomskih,maturskih i ostalih radova.</li>
+                                    <li>Budite konkurentni na konkursima za posao.Izrada CV-a,popratnih pisama i portofolija.</li>
+                                    <li>Prekucavanje raznih dokumenata i spisa</li>
+                                    <li>Popravak i rekonstrukcija dokumenata</li>
+                                    <li>Prodaja gotovih radova.
+                                    <!-- Large modal -->
+                                    <!-- Button trigger modal -->
+                                    <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#myModal">Saznaj vise</button>
+
+                                    <!-- Modal -->
+                                    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                                      <div class="modal-dialog" role="document">
+                                        <div class="modal-content">
+                                          <div class="modal-header">
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                            <h4 class="modal-title" id="myModalLabel">Gotovi radovi za prodaju</h4>
+                                          </div>
+                                          <div class="modal-body">
+                                            <img src="http://i.imgur.com/DIJk2BS.png?1" alt="" class="img-responsive">
+                                          </div>
+                                          
+                                        </div>
+                                      </div>
+                                    </div>    
+                                    </li>
                                 </ul>
+                            </p>
                                 </div>
                         </div>
                     </div>
-                
-
-
-                    <div class="col-xs-6">
+                    
+                    <div class="col-md-6">
                         <div class="thumbnail">
-                            <img src="http://i.imgur.com/7SEYtLw.jpg" alt="...">
+                            <img src="http://i.imgur.com/TsPhviR.png?2" alt="...">
                                 <div class="caption">
                                 <h3>Informaticke usluge</h3>
                                 <p><ul>
@@ -489,45 +531,192 @@
                                     <li>Graficki dizajn:flajeri,vizit karte,posteri,uređivanje magazina,
                                     knjiga,novina,editovanje slika 
                                     u Photoshopu</li>
-                                </ul></p>
+                                </ul></p><br><br><br><br>
                                 </div>
                         </div>
                     </div>
                 
-                
-
-                    <div class="col-xs-6">
+                    <div class="col-md-6">
                         <div class="thumbnail">
-                            <img src="http://i.imgur.com/7SEYtLw.jpg" alt="...">
+                            <img src="http://i.imgur.com/eclvrN0.jpg?1" alt="...">
                                 <div class="caption">
                                 <h3>Instrukcije</h3>
                                 <ul>
                                     <li>Osnovno koriscenje racunara</li>
                                     <li>Mirosoft Office(osnovni i napredni rad)</li>
-                                    <li>Internet(koristenje maila,korisni sajtovi,trikovi za koristenje googla i ostalih online alata)</li>
+                                    <li>Internet(koristenje maila,korisni sajtovi,trikovi za koristenje googla i ostalih online alata)</li><br><br>
                                 </ul>
                                 </div>
                         </div>
                     </div>
-                
-                    <div class="col-xs-6">
+
+                    <div class="col-md-6">
                         <div class="thumbnail">
-                            <img src="http://i.imgur.com/7SEYtLw.jpg" alt="...">
+                            <img src="http://i.imgur.com/DovuTiF.png" alt="...">
                                 <div class="caption">
-                            <h3>Kucanje radova</h3>
-                            <p>Izrada:</p>
-                            <p><ul>
-                                <li>Izrada seminarskih,završnih,
-                                    diplomskih,maturskih i ostalih radova.</li>
-                                <li>Budite konkurentni na konkursima za posao.Izrada CV-a,popratnih pisama i portofolija.</li>
-                                <li>Prekucavanje raznih dokumenata i spisa</li>
-                                <li>Popravak i rekonstrukcija dokumenata</li>
+                                <h3>Engleski jezik</h3>
+                                <p><ul>
+                                    <li>Prevodilacke usluge</li>
+                                    <li>Instrukcije</li>
+                                    <li>Privatni casovi</li>
+                                    Spoljni saradnik-diplomirani profesor engleskog jezika sa visegodisnjim iskustvom</p>
                                 </ul>
-                            </p>
                                 </div>
                         </div>
-                    </div>
+                    </div>  
                 </div>
+            </div>
+
+                </div><!-- first row close-->
+            </div><!--container-fluid close-->
+    </section><!--section usluge close-->
+
+<!--///////////////////Projekti//////////////////////////////////////////////////-->
+    <section>
+        <span id="projekti"></span> 
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-12" id="wrapCV">
+                        <div class="col-md-4"></div>
+                        <div class="col-md-4"><h2 class="text-center">Projekti</h2></div>
+                        <div class="col-md-4"></div>
+                    </div><!--wrap close-->
+                    <div class="col-md-12 clearfix"></div>
+                    <div class="container">
+                        <div class="gallery">
+                            <div class="row">
+                                <div class="col-md-3 ">
+                                    <a href="images/pics/1.jpg" data-title="Web stranica:Portofolio V2" data-lightbox="projects">
+                                        <img src="images/pics/1.jpg" alt="" width="200 px" class="img-thumbnail img-responsive">
+                                    </a>
+                                </div>
+
+                                <div class="col-md-3">
+                                    <a href="images/pics/2.jpg" data-title="Air bnb web stranica" data-lightbox="projects">
+                                        <img src="images/pics/2.jpg" alt="" width="200 px" class="img-thumbnail img-responsive">
+                                    </a>
+                                </div>
+
+                                <div class="col-md-3">
+                                    <a href="images/pics/3.jpg" data-title="Back to school langpage" data-lightbox="projects">
+                                        <img src="images/pics/3.jpg" alt="" width="200 px" class="img-thumbnail img-responsive">
+                                    </a>
+                                </div>
+
+                                <div class="col-md-3">
+                                    <a href="images/pics/4.jpg" data-title="Esha's Restaurant" data-lightbox="projects">
+                                        <img src="images/pics/4.jpg" alt="" width="200 px" class="img-thumbnail img-responsive">
+                                    </a>
+                                </div><!--row close-->
+                                <div class="col-md-12"><br></div><!--clearfix-->
+
+                                <div class="row">
+                                <div class="col-md-3">
+                                    <a href="images/pics/5.jpg" data-title="STS sport agency" data-lightbox="projects">
+                                        <img src="images/pics/5.jpg" alt="" width="200 px" class="img-thumbnail img-responsive">
+                                    </a>
+                                </div>
+
+                                <div class="col-md-3">
+                                    <a href="images/pics/6.jpg" data-title="Broadway landpage" data-lightbox="projects">
+                                        <img src="images/pics/6.jpg" alt="" width="200 px" class="img-thumbnail img-responsive">
+                                    </a>
+                                </div>
+
+                                <div class="col-md-3">
+                                    <a href="images/pics/7.jpg" data-title="Jeff blog-osnovni dizajn" data-lightbox="projects">
+                                        <img src="images/pics/7.jpg" alt="" width="200 px" class="img-thumbnail img-responsive">
+                                    </a>
+                                </div>
+
+                                <div class="col-md-3">
+                                    <a href="images/pics/8.jpg" data-title="Portofolio V1" data-lightbox="projects">
+                                        <img src="images/pics/8.jpg" alt="" width="200 px" class="img-thumbnail img-responsive">
+                                    </a>
+                                </div><!--row close-->
+                                <div class="col-md-12"><br></div><!--clearfix-->
+
+                                <div class="row">
+                                <div class="col-md-3">
+                                    <a href="images/pics/9.jpg" data-title="Graficki dizajn:Idejno resenje za plakat u Masinskoj skoli Prijedor" data-lightbox="projects">
+                                        <img src="images/pics/9.jpg" alt="" width="200 px" class="img-thumbnail img-responsive">
+                                    </a>
+                                </div>
+
+                                <div class="col-md-3">
+                                    <a href="images/pics/10.jpg" data-title="Graficki dizajn postera od unapred zadanih elemenata" data-lightbox="projects">
+                                        <img src="images/pics/10.jpg" alt="" width="200 px" class="img-thumbnail img-responsive">
+                                    </a>
+                                </div>
+
+                                <div class="col-md-3">
+                                    <a href="images/pics/11.jpg" data-title="Logotip" data-lightbox="projects">
+                                        <img src="images/pics/11.jpg" alt="" width="200 px" class="img-thumbnail img-responsive">
+                                    </a>
+                                </div>
+
+                                <div class="col-md-3">
+                                    <a href="images/pics/12.jpg" data-title="Tipografija poster" data-lightbox="projects">
+                                        <img src="images/pics/12.jpg" alt="" width="200 px" class="img-thumbnail img-responsive">
+                                    </a>
+                                </div><!--row close-->
+                                
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <h4 class="text-center">Ostali radovi:</h4>
+                                    </div>
+
+                                    <div class="btn-group btn-group-justified" role="group" aria-label="...">
+                                        <div class="btn-group" role="group">
+                                            <button type="button" class="btn btn-default">
+                                                <a href="https://dl.dropboxusercontent.com/u/22380934/%24oping%207.3.apk" target="_blank">Android app $oping:download apk</a>
+                                            </button>
+                                        </div>
+
+                                        <div class="btn-group" role="group">
+                                            <button type="button" class="btn btn-default">
+                                                <a href="https://dl.dropboxusercontent.com/u/22380934/Knjiga%20Standarda.pdf" target="_blank">Graficki dizajn:Knjiga standarda</a>
+                                            </button>
+                                        </div>
+                                        <div class="btn-group" role="group">
+                                            <button type="button" class="btn btn-default">
+                                                <a href="https://goo.gl/Fg2z2m" target="_blank">Tutorijali:PCEasyWay</a>
+                                            </button>
+                                        </div>
+                                    </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                       
+
+
+
+                </div><!--first row close-->
+            </div><!--container-fluid close-->
+        
+    </section>
+<!--///////////////////Projekti close////////////////////////////////////////////-->
+
+<!--///////////////////Reference////////////////////////////////////////////-->
+    <section>
+        <span id="reference"></span>
+        <div class="container-fluid">
+            <div class="row">
+                 <div class="col-md-12" id="wrapCV">
+                    <div class="col-md-4"></div>
+                    <div class="col-md-4"><h2 class="text-center">Reference</h2></div>
+                    <div class="col-md-4"></div>
+                </div><!--wrap close-->
+            </div>
+        </div>
+        
+    </section>
+<!--///////////////////Reference close////////////////////////////////////////////-->
+       
+
+    
 
 
 
@@ -535,11 +724,18 @@
 
      </div><!--jumbotron close-->
     </div> <!--container-->
+
         <!--JavaScript-->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.3.min.js"><\/script>')</script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <!--<script src="js/bootstrap.js"></script>-->
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
+        <script src="js/lightbox.js"></script>
+  
+        
+       
+
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
 
