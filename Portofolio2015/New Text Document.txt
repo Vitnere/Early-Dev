@@ -1,0 +1,9 @@
+w3c validator
+promjeniti avatar sliku
+crveni border mozila u galeriji
+oblikovati mapu u css-u
+
+
+napraviti link za englesku stranicu
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2822.0848619750927!2d16.7319972155414!3d44.98258717909828!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x476734a4fec9eb0b%3A0xedb784ce6e877482!2sVasilija+Ostro%C5%A1kog%2C+Prijedor%2C+Bosna+i+Hercegovina!5e0!3m2!1sbs!2s!4v1447099834773" width="450" height="300" frameborder="0" style="border:1" allowfullscreen></iframe>

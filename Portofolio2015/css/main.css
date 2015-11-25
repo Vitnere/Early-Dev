@@ -82,13 +82,34 @@ body a:visited {
 body a:hover {
     text-decoration: underline;
     color: #ec0000;
-    font-size:110%;
+    
 }
 body a:active {
     text-decoration: underline;
     color: #ec0000;
-    font-size:110%;
 }
+/*Fonts*/
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Arvo', Georgia, Times, serif !important;
+
+}
+
+p, div {
+  font-family: 'PT Sans', Helvetica, Arial, sans-serif !important; 
+}
+.white_text{
+  color: #ffffff !important;
+}
+ul {
+   list-style-type: none;
+ }
+
+div #a,#b,#c,#d { height: 55%; float: left; width: 50%; }
+#c { clear: left; }
+
+
+
+
 /* ==========================================================================
    Browser Upgrade Prompt
    ========================================================================== */
@@ -115,37 +136,33 @@ body a:active {
         font-weight: 900;
   }
 
-  /*Header*/
-  .landphoto {
-    background: url("http://i.imgur.com/zG5bfV5.jpg")no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-     background-size: cover;
-     margin: 0 !important;
-     width: 100% !important;  
-  }
   /*Intro*/
   #avatar {
     border-radius: 90%;
-    border: 3px solid #6d6d6d;
+    border: 3px solid #c2c2c2;
     margin: 15% 0 2% 0;
-  }
-  #title h2 {
-    margin-top: 20%;
-    color: #ffffff;
-    text-shadow: 2px 2px #000000;
-  }
-  #title h3 {
-    margin-bottom: 20%;
-    color: #ffffff;
-    text-shadow: 2px 2px #000000;
-    
- }
-  #introp {
-      color: #ffffff;
-      text-shadow: 2px 2px #000000;
-    }
+  } 
+  .carousel .item {
+  height: 200px;
+  width: 100%;
+}
+
+  .item img {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    min-height: 50px;
+    border: 3px solid #c2c2c2;
+
+}
+
+@media(max-width: 768px){.carousel-caption p{font-size: 12px !important;}}
+@media(max-width: 768px){.carousel-caption h4{font-size: 14px !important;}}
+.carousel-caption p{
+  font-size: 14px !important;
+}
+  
+  
   /*Profile*/
   #sk1 ul li, 
   #sk2 ul li {
@@ -156,39 +173,45 @@ body a:active {
   #panel-info {
     margin-top: 4%;
   }
-  /*Biografija(CV) of young Luke Skywalker*/
-  #wrapCV {
-    height: 200px;
-    background-color: #333333;
-    color: #ffffff;
-    margin-top: 5%;
-    width: 100%;
+
+  /*CV of young Luke Skywalker*/
+  .wrapheader {
+    height: 70px;
+    color: #000000; 
   }
-  #wrapCV h2 {
-    font-size: 500%;
-    margin-top: 20%;
-    text-align: center;
-  }
-  #wrap{
-    padding: 0;
-    margin: auto 0;
-    width: 100%;
+  .wrapheader h2 {
+    font-size: 250%; 
+    float: left;
   }
   .clearfix{
-    height: 30px;
+    height: 70px;
   }
-  /*Usluge*/
+  /*projects*/
+ 
+  /*Services*/
   .thumb{
     padding-left: 10px;
   }
-  /*Projekti*/
-  .container-galery {
-  position: relative;
-  height: 660px;
-  width: 960px;
-  overflow: hidden;
-  margin: 0 auto;
-   }
+   /*References*/
+   .caround{
+    border-radius: 50%;
+    }
+    /*Contact*/
+   #map{
+    height: 100px;
+    width: 100px;
+  }
+
+
+ 
+
+   /*Footer*/
+  footer div{
+    height: 65px !important;
+    margin-top: -3%;
+    background-color: #000000;
+    color: #ffffff; 
+  }
 
 
 
