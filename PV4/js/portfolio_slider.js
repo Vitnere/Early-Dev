@@ -10,38 +10,38 @@ $("#elastic_grid_demo").elastic_grid({
 		{
 		'title' : 'Portofolio 3',
 		'description'   : 'Sajt razvijen u toku novembra 2015-e.Toolbox:HTML5,CSS3,Js/Jquery/Bootstrap',
-		'thumbnail' : ['img/portfolio/small/1.jpg', 'img/portfolio/small/1_1.jpg', 'img/portfolio/small/1_2.jpg', 'img/portfolio/small/1_3.jpg', 'img/portfolio/small/1_4.jpg'],
-		'large' : ['img/portfolio/large/1.jpg', 'img/portfolio/large/1_1.jpg', 'img/portfolio/large/1_2.jpg', 'img/portfolio/large/1_3.jpg', 'img/portfolio/large/1_4.jpg'],
+		'thumbnail' : ['http://i.imgur.com/EXeawWR.jpg', 'http://i.imgur.com/g4IqxXM.jpg', 'http://i.imgur.com/m0X1Fdk.jpg', 'http://i.imgur.com/A6vRVkN.jpg', 'http://i.imgur.com/GJDMR7o.jpg'],
+		'large' : ['http://i.imgur.com/DBg4trk.jpg','http://i.imgur.com/OAdJGEt.jpg','http://i.imgur.com/FK4B5MI.jpg','http://i.imgur.com/DmPmbl3.jpg','http://i.imgur.com/wmMXpPE.jpg'],
 		'button_list'   :
 		[
-		{ 'title':'Demo', 'url' : 'http://pver2.bitballoon.com/' },
-		{ 'title':'Download', 'url':'https://dl.dropboxusercontent.com/u/22380934/PortofolioV2.rar'}
+		{ 'title':'Demo', 'url' : 'http://1989.bitballoon.com/' },
+		{ 'title':'Download', 'url':'https://dl.dropboxusercontent.com/u/22380934/PortofolioV3.rar'}
 		],
 		'tags'  : ['Web','Sve']
 		},
 
 		{
-		'title' : 'Portofolio 2',
-		'description'   : 'Razvijen u toku 2013-e godine u XHTML,CSS i JS',
-		'thumbnail' : ['img/portfolio/small/2.jpg', 'img/portfolio/small/2_1.jpg', 'img/portfolio/small/2_2.jpg', 'img/portfolio/small/2_3.jpg', 'img/portfolio/small/2_4.jpg'],
-		'large' : ['img/portfolio/large/2.jpg', 'img/portfolio/large/2_1.jpg', 'img/portfolio/large/2_2.jpg', 'img/portfolio/large/2_3.jpg', 'img/portfolio/large/2_4.jpg'],
+		'title' : 'Test 23',
+		'description'   : 'Sajt urađen za tri sata po zahjevu firme na konkursu za posao.Download source coda sa zadatkom na dugme download',
+		'thumbnail' : ['http://i.imgur.com/bp0EPKW.jpg','http://i.imgur.com/faGZDNJ.jpg','http://i.imgur.com/JQk5xqy.jpg','http://i.imgur.com/wVk0WFS.jpg'],
+		'large' : ['http://i.imgur.com/lS2FRIH.jpg','http://i.imgur.com/MABBHuS.jpg','http://i.imgur.com/QuhpECE.jpg','http://i.imgur.com/CvKDh2Y.jpg'],
 		'button_list'   :
 		[
-		{ 'title':'Demo', 'url' : 'http://1989.bitballoon.com/' },
+		{ 'title':'Demo', 'url' : '' },
 		{ 'title':'Download', 'url':'http://#'}
 		],
 		'tags'  : ['Web','Sve']
 		},
 
 		{
-		'title' : 'sTs sport agency',
-		'description'   : 'Razvijen u septembru 2015-e.Codecademy primjer za vjezbu:HTML i CSS',
-		'thumbnail' : ['img/portfolio/small/3.jpg','img/portfolio/small/3_1.jpg', 'img/portfolio/small/3_2.jpg'],
-		'large' : ['img/portfolio/large/3.jpg','img/portfolio/large/3_1.jpg', 'img/portfolio/large/3_2.jpg'],
+		'title' : 'Portofolio 2',
+		'description'   : 'Raden u maju 2013-e,HTML/CSS/Js',
+		'thumbnail' : ['http://i.imgur.com/xUx9hjG.jpg','http://i.imgur.com/3VCZVHt.jpg','http://i.imgur.com/u6u8eHh.jpg','http://i.imgur.com/ZDaks8V.jpg','http://i.imgur.com/GVAo2pU.jpg'],
+		'large' : ['http://i.imgur.com/L2NXekv.jpg','http://i.imgur.com/7WHum9N.jpg','http://i.imgur.com/A0XjMYZ.jpg','http://i.imgur.com/DFlB4zL.jpg','http://i.imgur.com/Nrlt0Rs.jpg'],
 		'button_list'   :
 		[
-		{ 'title':'Demo', 'url' : 'http://sts.bitballoon.com/' },
-		{ 'title':'Download', 'url':'https://dl.dropboxusercontent.com/u/22380934/PortofolioV3.rar'}
+		{ 'title':'Demo', 'url' : 'http://test23.bitballoon.com/' },
+		{ 'title':'Download', 'url':'https://dl.dropboxusercontent.com/u/22380934/test23.rar'}
 		],
 		'tags'  : ['Web', 'Sve']
 		},

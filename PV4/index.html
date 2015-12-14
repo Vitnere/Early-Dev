@@ -2,10 +2,12 @@
 <html lang="en">
   <head>
 
+
     <!-- Basic Page Needs
     ================================================== -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Nemanja Kolar-web developer,informaticar,freelancer">
      <title>Nemanja Kolar</title>
 
     <!-- Mobile Specific Metas
@@ -13,7 +15,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Favicon -->
-    <link rel="shortcut icon" type="image/png" href="img/favicon.png"/>
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png" alt="img"/>
 
     <!-- CSS
     ================================================== -->       
@@ -31,8 +33,6 @@
     <link rel="stylesheet" href="css/elastic_grid.css"> 
     <!-- Circle counter cdn css file -->
     <link rel='stylesheet prefetch' href='https://cdn.rawgit.com/pguso/jquery-plugin-circliful/master/css/jquery.circliful.css'>    
-    <!-- Default Theme css file -->
-    <link id="orginal" href="css/themes/default-theme.css" rel="stylesheet">
     <!-- Main structure css file -->
     <link href="style.css" rel="stylesheet">
    
@@ -49,11 +49,16 @@
     <![endif]-->
   </head>
   <body> 
-     <!-- BEGAIN PRELOADER -->
-    <div id="preloader">
-      <div id="status">&nbsp;</div>
-    </div>
-    <!-- END PRELOADER -->
+    <!--Facebook share-->
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.5";
+            fjs.parentNode.insertBefore(js, fjs);
+          }(document, 'script', 'facebook-jssdk'));
+    </script>
 
     <!-- SCROLL TOP BUTTON -->
     <a class="scrollToTop" href="#"><i class="fa fa-angle-up"></i></a>
@@ -77,12 +82,8 @@
             <!-- LOGO -->
 
             <!-- TEXT BASED LOGO -->
-            <a class="navbar-brand" href="#">N<span>K</span></a>
-            
-            <!-- IMG BASED LOGO  -->
-            <!--  <a class="navbar-brand" href="#"><img src="img/logo.png" alt="logo"></a> --> 
-            
-                   
+            <a class="navbar-brand" href="#">N<span>K(sajt u razvoju)</span></a>
+           
           </div>
           <div id="navbar" class="navbar-collapse collapse">
             <ul id="top-menu" class="nav navbar-nav navbar-right main_nav">
@@ -113,7 +114,7 @@
               <img src="img/full-slider/b1.jpg" alt="img">
               <!-- FIRST SLIDE CAPTION-->
               <div class="slider_caption">
-                <h2>Nemanja Kolar</h2>
+                <h1>Nemanja Kolar</h1>
                 <p>Samouki web developer</p>
                 <a href="#about" class="slider_btn">Saznaj više</a>              
               </div>
@@ -127,7 +128,7 @@
               <img src="img/full-slider/b2.jpg" alt="img">
               <!-- SECOND SLIDE CAPTION-->
               <div class="slider_caption">
-                <h2>Usluge</h2>
+                <h1>Usluge</h1>
                 <p>kucanje radova,informatika,instrukcije,engleski jezik</p>
                 <a href="#service" class="slider_btn">Saznaj više</a>
               </div>
@@ -141,7 +142,7 @@
               <img src="img/full-slider/b3.jpg" alt="img">
               <!-- THIRD SLIDE CAPTION-->
               <div class="slider_caption">
-                <h2>Preko stotinu</h2>
+                <h1>Preko stotinu</h1>
                 <p>zadovoljnih saradnika</p>
                 <a href="#works" class="slider_btn">Saznaj više</a>                 
               </div>
@@ -177,7 +178,7 @@
               <!-- START ABOUT HEADING -->
               <div class="heading">
                 <h2 class="wow fadeInLeftBig">O meni</h2>
-                <p>Ne znam ko ste,ne znam sta zelite.Ako trazite radnika ili uslugu,mogu vam reći da imam vještine.Ali ono što imam je vrlo određen skup vještina,vještina koje sam razvio u dugoj karijeri informatičara.Vještine koje će vas napraviti zadovoljnim saradnikom.</p>
+                <p>Ne znam ko ste, ne znam šta želite.Ako tražite radnika ili uslugu, mogu vam reći da imam vještine.Ali ono što imam je vrlo određen skup vještina, vještina koje sam razvio u mojoj dugoj karijeri informatičara.Vještine koje će vas napraviti zadovoljnim saradnikom.</p>
               </div>
 
               <!-- START ABOUT CONTENT -->
@@ -197,9 +198,7 @@
                           </div>
                           <div id="collapseOne" class="panel-collapse collapse in">
                             <div class="panel-body">
-                             Zdravo moje ime je Nemanja i samouk sam web developer.Apsolutni primat mi je brzo i efikasno kreirati cist i pregledan kod.Vizija mi je da postanem backend web 
-                             development nindza sa oruzijem kao sto
-                             su:Java,PHP,MySQL,HTML5,CSS3,JavaScript.
+                             Zdravo moje ime je Nemanja i samouk sam programer.Glavni cilj je brzo i efikasno kreirati čist i pregledan kod.Moj san je da postanem web development nindža čiji će kod pokazati kvalitet,efikasnost i pouzdanost.Svaki dan radim na tome da postanem bolji programer.
                             </div>
                           </div>
                         </div>
@@ -214,7 +213,8 @@
                           </div>
                           <div id="collapseTwo" class="panel-collapse collapse">
                             <div class="panel-body">
-                            U današnje doba gdje se 40% internet saobraćaja odvija preko mobilnih uređaja savršeno razumijem potrebu za korisćenjem platformi tipa Bootstrap za kvalitetan prikaz sadržaja na svim platformama.
+                            U današnje doba gdje se 40% internet saobraćaja odvija preko mobilnih uređaja savršeno razumijem potrebu za korištenjem
+                            platformi tipa Bootstrap za kvalitetan prikaz sadržaja na svim platformama.
                             </div>
                           </div>
                         </div>
@@ -229,8 +229,7 @@
                           </div>
                           <div id="collapseThree" class="panel-collapse collapse">
                             <div class="panel-body">
-                             Od svog prvog Pentium III računara,pa sve do danas znao sam da je moj put između nule i jedinice.Tokom godina sam radio na širokom spektru platformi,programskih jezika,operativnih sistetma,hardwera i softwera.
-                             Ipak smatram da znam samo mali dio slagalice i raduje me što imam cijeli život pred sobom da radim i učim više o svim tehničkim i praktičnim aspektima interneta.
+                             Znam da sam na početku i radim na tome da naučim osnovne postulate programiranja(data structures, binary tree, graph, design patterns, anti-patterns, composition over inheritance), po meni to znanje je najbolja osnova sa kojom mogu birati bilo koju platformu za razvoj code base.Raduje me što imam cijeli život pred sobom da radim i učim više o svim tehničkim i praktičnim aspektima interneta.
                             </div>
                           </div>
                         </div>
@@ -245,7 +244,7 @@
                           </div>
                           <div id="collapseFour" class="panel-collapse collapse">
                             <div class="panel-body">
-                             Proaktivno razmišljam trudeći se da predvidim probleme sa kojima bih se mogao susresti.Volim izazove i istraživanje rešenja istih.Pobornik sam logike i praktičnog rešavanja problema.Ne volim širinu i nepotrebne krivine.U kodiranju trudim se da odradim razvijam projekte što brže i efikasnije.
+                             Proaktivno razmišljam trudeći se da predvidim probleme sa kojima bih se mogao susresti.Volim izazove i istraživanje rješenja istih.Pobornik sam logike i praktičnog rješavanja problema.Ne volim širinu i nepotrebne krivine.U kodiranju trudim se da razvijam projekte što brže i efikasnije uz postulate agile/scrum platforme.
                             </div>
                           </div>
                         </div>
@@ -357,7 +356,7 @@
                       <span class="fa fa-line-chart service_icon"></span>
                     </div>
                     <h3 class="service_title">Informatičke usluge</h3>
-                    <p>Što se računara tiče od 2008-e sam krenuo na put bez povratka:da postanem IT nindza.Izmedu ostalih istakao bih sledece usluge:servis računara i korisnička podrška,izrada web sajtova i web aplikacija,grafički dizajn i priprema za štampu</p>
+                    <p>Što se računara tiče od 2008-e sam krenuo na put bez povratka: formiranje kao IT nindža .Između ostalih istakao bih sledeće usluge:<!--servis računara i korisnička podrška-->izrada web sajtova i web aplikacija, grafički dizajn i priprema za štampu</p>
                   </div>
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-6">
@@ -367,7 +366,7 @@
                       <span class="fa fa-suitcase service_icon"></span>
                     </div>
                     <h3 class="service_title">Instrukcije:</h3>
-                    <p>Iskustvo iz predavanja sam stekao na faksu kada sam imao ulogu privremenog asistenta profesora računarskih mreža kada sam vodio vježbe instalacije Linux Minta na virtuelne mašine.Pored toga bio sam onaj štreber kojeg se uvijek vuklo za rukav pa sam tu prednost i unovčio iz raznih predmeta:od baza podataka do osnova programiranja.Istakao bih sledeće usluge:osnovno korišćenje računara, microsoft Office(osnovni i napredni rad),internet (korištenje maila, korisni sajtovi, trikovi koje vam nisu rekli),</p>
+                    <p>Iskustvo iz predavanja sam stekao na faksu,sa ulogom privremenog asistenta profesora računarskih mreža, vodeći vježbe instalacije Linux Minta na virtuelne mašine.Pored toga bio sam "onaj štreber" kojeg se uvijek vuklo za rukav pa sam tu prednost i unovčio iz raznih predmeta: od baza podataka do osnova programiranja.U ponudi su sljedeći kursevi: osnovno korištenje računara, microsoft Office(osnovni i napredni rad),internet (korištenje maila, korisni sajtovi, svi trikovi koje vam nisu rekli).</p>
                   </div>
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-6">
@@ -377,7 +376,7 @@
                       <span class="fa fa-eraser service_icon"></span>
                     </div>
                     <h3 class="service_title">Engleski jezik</h3>
-                    <p>Dio koji lično ne obavljam u potpunosti već moj vanjski saradnik-diplomirani profesor engleskog jezika sa višegodisnjim iskustvom.Istakao bih:prevodilačke usluge,instrukcije,privatni časovi,</p>
+                    <p>Ovaj dio usluga obavlja moj vanjski saradnik - diplomirani profesor engleskog jezika sa višegodišnjim iskustvom.U ponudi su:prevodilačke usluge, instrukcije, privatni časovi.</p>
                   </div>
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-6">
@@ -387,7 +386,8 @@
                       <span class="fa fa-paper-plane service_icon"></span>
                     </div>
                     <h3 class="service_title">Kucanje Radova</h3>
-                    <p>Od 2009-e se bavim freelance kucanjem radova tako da sam razvio sposobnost pravo nindze.Izmedu ostalih istakao bih sledece usluge:Kucanje svih vrsta radova,izrada CV-a,popratnih pisama i portofolija,prekucavanje dokumenata,popravak i rekonstrukcija dokumenata,prodaja gotovih radova</p>
+                    <p>Od 2009-e se bavim freelance kucanjem radova tako da sam razvio brzinu kucanja nindže (javlja li se itko za dvoboj tastatura?).Između ostalih istakao bih sljedeće usluge: kucanje svih vrsta radova, izrada CV-a, popratnih pisama i portfolija, prekucavanje dokumenata, popravak i rekonstrukcija dokumenata, prodaja gotovih radova.Najpovoljnije cijene, pedantnost i disciplina u pogledu radova, kvalitet, velika baza zadovoljnih mušterija i razni popusti su samo neke od beneficija.
+                    </p>
                   </div>
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-6">
@@ -510,8 +510,8 @@
                       <a href="#"><i class="fa fa-user"></i>Nemanja Kolar</a>
                       <span><i class="fa fa-calendar"></i>2008-2015</span>
                     </div>
-                    <p>Posjedujem iskustvo rada u IT sektoru,Vladi RS,industriji namjestaja,ugostiteljstvu i turizmu.Trenutno sam u procesu afirmacije kao backend web developer.Vise info mozete da saznate na linku ispod</p>
-                    <a href="https://goo.gl/3mXXpw" class="read_more" target="_blank">Europass CV <i class="fa fa-angle-double-right">  </i></a>                   
+                    <p>Posjedujem iskustvo rada u IT sektoru(servis hadvera i softvera,programiranje,održavanje i popravak računarskih mreža), Vladi RS, industriji namještaja, ugostiteljstvu i turizmu.Trenutno sam u procesu afirmacije kao backend web developer.Vise info možete da saznate na linku ispod</p>
+                    <a href="https://goo.gl/P9xTId" class="read_more" target="_blank">Europass CV <i class="fa fa-angle-double-right">  </i></a>                   
                   </div>
                 </div>
 
@@ -526,7 +526,7 @@
                       <a href="#"><i class="fa fa-user"></i>Nemanja Kolar</a>
                       <span><i class="fa fa-calendar"></i>2008-2015</span>
                     </div>
-                    <p>Diplomirao sam 2012-e godine sa zvanjem diplomirani informaticar, iz oblasti poslovna informatika.Takoder sam pohadao kurseve:"Obuka u naprednim grafičkim softverima `Adobe Illustrator` i `Adobe InDesign'" i "Osnove programiranja sa C jezikom".Vise informacija na linku ispod.
+                    <p>Diplomirao sam 2012-e godine sa zvanjem diplomirani informatičar, iz oblasti poslovna informatika.Također sam pohađao kurseve:"Obuka u naprednim grafičkim softverima "Adobe Illustrator" i "Adobe InDesign" i "Osnove programiranja sa C jezikom".Više informacija na linku ispod.
                     </p>
                     <a href="http://imgur.com/a/3Sck4/all" class="read_more" target="_blank">Edukacija/Certifikati <i class="fa fa-angle-double-right">  </i></a>
                   </div>
@@ -542,7 +542,7 @@
                       <a href="#"><i class="fa fa-user"></i>Nemanja Kolar</a>
                       <span><i class="fa fa-calendar"></i>2011-2015</span>
                     </div>
-                    <p>Posjedujem preporuke od dva bivsa poslodavca Int-Ware Prijedor i E-Info Banja Luka.Takoder posjedujem preporuke od profesora sa kurseva programiranja/grafickog dizajna.Vise informacija na linku ispod</p>
+                    <p>Posjedujem preporuke od dva bivša poslodavca: Int-Ware Prijedor i E-Info Banja Luka.Također posjedujem preporuke od profesora sa kurseva programiranja/grafičkog dizajna.Više informacija na linku ispod</p>
                     <a href="http://imgur.com/a/YPATs/all" class="read_more" target="_blank">Preporuke <i class="fa fa-angle-double-right">  </i></a>
                   </div>
                 </div>
@@ -652,7 +652,10 @@
             <!-- START CONTACT HEADING -->
             <div class="heading">
               <h2 class="wow fadeInLeftBig">Kontakt</h2>
-              <p>Ako imate poslovnu ponudu, startup ideju kojoj zelite da se priključim ili vam trebaju moje usluge slobodno me kontaktirajte.Radujem se budućoj saradnji. </p>
+              <p>Ako imate poslovnu ponudu ili vam trebaju moje usluge slobodno me kontaktirajte.Radujem se budućoj saradnji. </p>
+              <div class="fb-like" data-href="http://nemanjakolar.bitballoon.com/" data-width="400" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
+              <div id="clear"></div>
+              <div class="addthis_native_toolbox"></div>
             </div>
           </div>
         </div>       
@@ -667,10 +670,10 @@
                 <div id="form-messages"></div>
 
                 <form>
-                  <input class="form-control" type="text" placeholder="Ime">
+                  <input class="form-control" type="text" placeholder="Name">
                   <input class="form-control" type="email" placeholder="E-Mail">
                   <input class="form-control" type="text" placeholder="Naslov">
-                  <textarea class="form-control" cols="30" rows="10" placeholder="Vasa poruka"></textarea>
+                  <textarea class="form-control" cols="30" rows="10" placeholder="Poruka"></textarea>
                    <input class="submit_btn" type="submit" value="Send">  
                 </form>
               </div>
@@ -708,7 +711,7 @@
             <div class="col-lg-3 col-md-3 col-sm-6">
               <div class="single_contact_feaured wow fadeInUp">
                 <i class="fa fa-envelope-o"></i>
-                <h4>Email adresa</h4>
+                <h4>E-mail adresa</h4>
                 <p>nemanjakolar@gmail.com</p>
               </div>
             </div>
@@ -725,7 +728,7 @@
               <div class="single_contact_feaured wow fadeInUp">
                 <i class="fa fa-clock-o"></i>
                 <h4>Radno vrijeme:</h4>
-                <p>Pon-Pet:8.00-16.00</p>
+                <p>Pon-Pet:8.00-21.00</p>
               </div>
             </div>
           </div>
@@ -790,5 +793,18 @@
 
     <!-- Custom js-->
     <script src="js/custom.js"></script>
+
+     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <script>
+            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+            e.src='https://www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+            ga('create','UA-15269403-1','auto');ga('send','pageview');
+        </script> 
+
+    <!--Add this share script-->
+    <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-56731d61d5a31dbb" async="async"></script>
   </body>
 </html>
