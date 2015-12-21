@@ -49,8 +49,8 @@ $("#elastic_grid_demo").elastic_grid({
 		{
 		'title' : 'Brodway',
 		'description'   : ' Razvijen u septembru 2015-e.Codecademy primjer za vjezbu:HTML,CSS',
-		'thumbnail' : ['img/portfolio/small/4.jpg', 'img/portfolio/small/4_1.jpg'],
-		'large' : ['img/portfolio/large/4.jpg', 'img/portfolio/large/4_1.jpg'],
+		'thumbnail' : ['http://i.imgur.com/l3DI6HZ.jpg','http://i.imgur.com/K9r0H6K.jpg'],
+		'large' : ['http://i.imgur.com/TVeJ38K.jpg','http://i.imgur.com/TVeJ38K.jpg'],
 		'button_list'   :
 		[
 		{ 'title':'Demo', 'url' : 'http://p5brodway.bitballoon.com/' },
@@ -62,8 +62,8 @@ $("#elastic_grid_demo").elastic_grid({
 		{
 		'title' : 'Airbnb',
 		'description'   : 'Razvijen u septembru 2015-e.Codecademy primjer za vjezbu:HTML,CSS,Bootstrap',
-		'thumbnail' : ['img/portfolio/small/5.jpg', 'img/portfolio/small/5_1.jpg'],
-		'large' : ['img/portfolio/large/5.jpg', 'img/portfolio/large/5_1.jpg'],
+		'thumbnail' : ['http://i.imgur.com/YbtInk0.jpg','http://i.imgur.com/9tkL2uZ.jpg'],
+		'large' : ['http://i.imgur.com/3zzz7BL.jpg','http://i.imgur.com/rXypvWh.jpg'],
 		'button_list'   :
 		[
 		{ 'title':'Demo', 'url' : 'http://p4airbnb.bitballoon.com/' },
@@ -75,8 +75,8 @@ $("#elastic_grid_demo").elastic_grid({
 		{
 		'title' : 'Preporuka E-info',
 		'description'   : '',
-		'thumbnail' : ['img/portfolio/small/6.jpg'],
-		'large' : ['img/portfolio/large/6.jpg'],
+		'thumbnail' : ['http://i.imgur.com/EUA7CHn.jpg'],
+		'large' : ['http://i.imgur.com/7bRvHs0.jpg'],
 		'button_list'   :
 		[
 		{ 'title':'Demo', 'url' : 'http://i.imgur.com/O3dkzl9.png' },
@@ -88,12 +88,12 @@ $("#elastic_grid_demo").elastic_grid({
 		{
 		'title' : 'Preporuka Int-Ware',
 		'description'   : '',
-		'thumbnail' : ['img/portfolio/small/7.jpg'],
-		'large' : ['img/portfolio/large/7.jpg'],
+		'thumbnail' : ['http://i.imgur.com/oyKpoTd.jpg'],
+		'large' : ['http://i.imgur.com/wgeSmHD.jpg'],
 		'button_list'   :
 		[
 		{ 'title':'Demo', 'url' : 'http://i.imgur.com/nPYwRan.jpg' },
-		{ 'title':'Download', 'url':'http://i.imgur.com/nPYwRan.jpg'}
+		{ 'title':'Download', 'url':'http://i.imgur.com/oyKpoTd.jpg'}
 		],
 		'tags'  : ['Preporuke','Sve']
 		},
@@ -101,8 +101,8 @@ $("#elastic_grid_demo").elastic_grid({
 		{
 		'title' : 'Preporuka Docent,dr Dragan Matić',
 		'description'   : 'Preporuka Docent,dr Dragan Matić,PMF Banja Luka predavac na kursu "Osnove programiranja sa C jezikom"',
-		'thumbnail' : ['img/portfolio/small/8.jpg'],
-		'large' : ['img/portfolio/large/8.jpg'],
+		'thumbnail' : ['http://i.imgur.com/jDHMq8z.jpg'],
+		'large' : ['http://i.imgur.com/RDDus9o.jpg'],
 		'button_list'   :
 		[
 		{ 'title':'Demo', 'url' : 'http://i.imgur.com/ycQw7fL.jpg' },
@@ -114,8 +114,8 @@ $("#elastic_grid_demo").elastic_grid({
 		{
 		'title' : 'Preporuka Docent,mr Miodrag Manojlović',
 		'description'   : 'Preporuka docent,mr Miodrag Manojlović, profesor, Faculty of Information Technology and Design',
-		'thumbnail' : ['img/portfolio/small/9.jpg'],
-		'large' : ['img/portfolio/large/9.jpg'],
+		'thumbnail' : ['http://i.imgur.com/vLJnvQw.jpg'],
+		'large' : ['http://i.imgur.com/yRZ2y0w.jpg'],
 		'button_list'   :
 		[
 		{ 'title':'Demo', 'url' : 'http://i.imgur.com/TYXzhIw.png' },
@@ -127,8 +127,8 @@ $("#elastic_grid_demo").elastic_grid({
 		{
 		'title' : '"Osnove programiranja sa C jezikom"',
 		'description'   : 'Certifikat sa kursa "Osnove programiranja sa C jezikom"',
-		'thumbnail' : ['img/portfolio/small/10.jpg'],
-		'large' : ['img/portfolio/large/10.jpg'],
+		'thumbnail' : ['http://i.imgur.com/ReDxkGJ.jpg'],
+		'large' : ['http://i.imgur.com/R4qQnFt.jpg'],
 		'button_list'   :
 		[
 		{ 'title':'Demo', 'url' : 'http://i.imgur.com/xJ2yMJz.png' },
@@ -140,8 +140,8 @@ $("#elastic_grid_demo").elastic_grid({
 		{
 		'title' : 'Obuka u naprednim grafičkim softverima "Adobe Illustrator" i "Adobe InDesign"',
 		'description'   : 'Certifikat sa kursa Obuka u naprednim grafičkim softverima "Adobe Illustrator" i "Adobe InDesign"',
-		'thumbnail' : ['img/portfolio/small/11.jpg'],
-		'large' : ['img/portfolio/large/11.jpg'],
+		'thumbnail' : ['http://i.imgur.com/qspwlB5.jpg'],
+		'large' : ['http://i.imgur.com/DATPNxE.jpg'],
 		'button_list'   :
 		[
 		{ 'title':'Demo', 'url' : 'http://i.imgur.com/jz33usv.jpg' },
