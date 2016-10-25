@@ -1,2 +1,2 @@
 # projects
-All my developed websites and web apps in process of learning web development
+All my developed websites and web apps in beginning of learning web development. Autumn 2016.
